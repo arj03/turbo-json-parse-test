@@ -17,9 +17,10 @@ const parse = compile.from({
 
 const ex = JSON.stringify({
   hello: 'world',
-  world: null
+  world: 'nuller'
 })
 
 // will return {hello: 'world'}
-console.log(parse(ex))
 console.log(parse.toString())
+console.log(parse(ex))
+
