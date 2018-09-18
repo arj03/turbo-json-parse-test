@@ -4,6 +4,10 @@ const compile = require('./')
 const parse = compile.from({
   hello: 'string',
   num: 42,
+  anyOf: [
+    { world: 'string' },
+    { world: null }
+  ],
   flag: true,
   flags: [true],
   nested: {
@@ -17,3 +21,4 @@ const ex = JSON.stringify({
 
 // will return {hello: 'world'}
 console.log(parse(ex))
+console.log(parse.toString())
