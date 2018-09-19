@@ -12,10 +12,7 @@ const sbotJSON =
     "sequence": 2,
     "timestamp": 1514517078157,
     "hash": "sha256",
-    "content": {
-      "type": "post",
-      "text": "Second post!"
-    },
+    arbitraryJSON: { "content": "arbitrary-json" },
     "signature": "z7W1ERg9UYZjNfE72ZwEuJF79khG+eOHWFp6iF+KLuSrw8Lqa6IousK4cCn9T5qFa8E14GVek4cAMmMbjqDnAg==.sig.ed25519"
   },
   "timestamp": 1514517078160
