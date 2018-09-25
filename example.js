@@ -88,6 +88,24 @@ const ex3 =
   "timestamp": 1526161668580
 }
 
+const ex4 = {
+  "key": "%JFQvDu6xHiNix0DFNDNoXAvQMMQFnv7mCgvpg6zg3oM=.sha256",
+  "value": {
+    "previous": "%JdGDVRjmWcg4cf2lY2EUEKqcQU2WOujS/LxFjn4oCug=.sha256",
+    "author": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+    "sequence": 381,
+    "timestamp": 1493697673438,
+    "hash": "sha256",
+    "content": {
+      "type": "about",
+      "about": "%A/cHZ+57MSe+2Sv5hM4c5oQVMJH6G1Nii2XE9hDrzmY=.sha256",
+      "attendee": {}
+    },
+    "signature": "BFaCeuvRTLPOlwCjMCuj/RKoc2NgFuwv4NeuDMG0rjlQ9q+Ub6jOKpDneTK5Rdk+l7qbV6pq6rOYM0UsM7+SDw==.sig.ed25519"
+  },
+  "timestamp": 1526161750215
+}
+
 /*
 for (var i = 0; i < 100; ++i)
   console.log(ex[i], ex.charCodeAt(i))
@@ -98,9 +116,10 @@ for (var i = 0; i < 100; ++i)
 //console.log(parse(JSON.stringify(sbotExample)))
 //console.log(ex)
 //console.log(ex.replace(/[ \t\r\n]+/g,""))
-const ex = JSON.stringify(sbotExample2, null, 2)
-console.log(ex)
-console.log(JSON.stringify(sbotExample2))
-console.log(parse(ex)) // .replace(/[ \t\r\n]+/g,"")
+//const ex = JSON.stringify(sbotExample2, null, 2)
+//console.log(ex)
+//console.log(JSON.stringify(sbotExample2))
+//console.log(parse(ex)) // .replace(/[ \t\r\n]+/g,"")
 //console.log(ex3.replace(/[ \t\r\n]+/g,""))
+console.log(parse(JSON.stringify(ex4, null, 2)))
 
