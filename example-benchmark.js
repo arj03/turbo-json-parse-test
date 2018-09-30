@@ -41,22 +41,6 @@ const sbotDiffOrderJSON =
   "timestamp": 1514517078160
 }
 
-const sbotDiffOrderJSON = 
-{
-  "key": "%R7lJEkz27lNijPhYNDzYoPjM0Fp+bFWzwX0SmNJB/ZE=.sha256",
-  "value": {
-    "previous": "%XphMUkWQtomKjXQvFGfsGYpt69sgEY7Y4Vou9cEuJho=.sha256",
-   ("sequence": 2,
-      OR 
-    "author": "@FCX/tsDLpubCPKKfIrw4gc+SQkHcaD17s7GI6i/ziWY=.ed25519",)
-    "timestamp": 1514517078157,
-    "hash": "sha256",
-    "content": {}, <- JSON.parse
-    "signature": "z7W1ERg9UYZjNfE72ZwEuJF79khG+eOHWFp6iF+KLuSrw8Lqa6IousK4cCn9T5qFa8E14GVek4cAMmMbjqDnAg==.sig.ed25519"
-  },
-  "timestamp": 1514517078160
-}
-
 const s = JSON.stringify(sbotJSON)
 const b = Buffer.from(s)
 
